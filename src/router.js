@@ -830,6 +830,39 @@ const router = new Router({
                     }
                 },
                 {
+                    path: '/forms/form-elements/select/createquotation',
+
+                    name: 'delivery product',
+                    component: () =>
+                        import ('./views/forms/form-elements/select/createquotation.vue'),
+                    meta: {
+                        pageTitle: 'Create Quotation',
+                        rule: 'editor'
+                    }
+                },
+                {
+                    path: '/forms/form-elements/select/createreqpay',
+
+                    name: 'reqpay',
+                    component: () =>
+                        import ('./views/forms/form-elements/select/createreqpay.vue'),
+                    meta: {
+                        pageTitle: 'Create Request Payment',
+                        rule: 'editor'
+                    }
+                },
+                {
+                    path: '/forms/form-elements/select/createreqpayfirst',
+
+                    name: 'reqpayf',
+                    component: () =>
+                        import ('./views/forms/form-elements/select/createreqpayfirst.vue'),
+                    meta: {
+                        pageTitle: 'Select project',
+                        rule: 'editor'
+                    }
+                },
+                {
                     path: '/forms/form-elements/select/deliverytime',
 
                     name: 'delivery product',
